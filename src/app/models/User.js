@@ -11,6 +11,9 @@ class User extends Model {
       },
       {
         sequelize,
+        tableName: 'users',
+        createdAt: 'created_at',
+        updatedAt: 'updated_at',
       }
     );
   }
